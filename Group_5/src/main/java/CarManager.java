@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class CarManager {
-    private static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<String> options = new ArrayList<>();
         options.add("List all brands");
