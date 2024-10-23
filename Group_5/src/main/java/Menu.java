@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 public class Menu {
     // Method to display options and get user's choice
-    private int int_getChoice(ArrayList<String> options) {
+    public int int_getChoice(ArrayList<String> options) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please choose an option:");
         for (int i = 0; i < options.size(); i++) {
